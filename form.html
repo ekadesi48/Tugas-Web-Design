@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title>Forms</title>
+</head>
+<body bgcolor="pink">
+<form action="http://www.example.com/review.php" method="get">
+<fieldset>
+	<legend>
+		Contact us:
+	</legend>
+	<label>
+		Nama:
+		<input type="text" name="nama" size="30" required="required" placeholder="nama">
+	</label>
+
+	<label>
+		Email:
+		<input type="email" name="email" size="30" required="required" placeholder="email">
+	</label>
+
+	<label>
+		Website:
+		<input type="url" name="url" size="30" required="required" placeholder="website">
+	</label>
+	<label>
+		Message:
+		<textarea rows="4" cols="40" placeholder="Message"></textarea>
+	</label>
+	<br />
+	<input type="submit" value="Submit review" />
+	<input type="reset" value="reset" />
+</fieldset>
+</form>
+</body>
+</html>
+
