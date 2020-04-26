@@ -1,0 +1,31 @@
+@media only screen and (max-width: 960px){
+body{
+	background-color:#fff;
+}
+#wrapper{
+	width : 81.25%;
+}
+
+#header{
+	padding:3px;
+	font-size:13px;
+}
+
+#header form{
+	margin-top: -50px;
+}
+
+#daftar-artikel{
+	width:100%;
+}
+.artikel img{
+	margin-right:50px;
+}
+
+}
+
+@media screen (max-width: 400px){
+	#header li a,{
+		padding: 4px;
+	}
+}
